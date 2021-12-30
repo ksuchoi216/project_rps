@@ -29,4 +29,3 @@ then total score is calculated to display winner or losser.
 - [x] function for 1 game
 - [x] loop for 5 games
 - [x] print out total score.
-

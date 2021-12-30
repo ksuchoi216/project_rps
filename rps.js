@@ -46,6 +46,9 @@ function finalResult(playerScore, computerScore){
 }
 
 function playRound(playerinput){
+    if (rounds >= 6){
+        location.reload();
+    }
     let status = "This is "+String(rounds)+" round";
     document.getElementById("status").innerHTML = status;
 
@@ -68,15 +71,13 @@ function playRound(playerinput){
         playerScore += 1;
     }
 
-    if (rounds>5){
+    document.getElementById("score-board").innerHTML = "[player vs computer] "+playerScore+" : "+computerScore;
+    document.getElementById(print_location).innerHTML =roundResult+" - You chose "+playerSelection+", and computer chose "+computerSelection;
+    if (rounds>=5){
         document.getElementById("final_res").innerHTML = finalResult(playerScore, computerScore);
     }
-    else{
-        document.getElementById(print_location).innerHTML =roundResult+" - You chose "+playerSelection+", and computer chose "+computerSelection;
-    }
     
-
-
+    
     rounds += 1;
 }
 
