@@ -26,7 +26,7 @@ then total score is calculated to display winner or losser.
 
 ## 4. divide and conquer
 - [x] input section
-- [ ] function for 1 game
-- [ ] loop for 5 games
-- [ ] print out total score.
+- [x] function for 1 game
+- [x] loop for 5 games
+- [x] print out total score.
 
