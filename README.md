@@ -25,8 +25,8 @@ This kind of the game is repeated 5 times
 then total score is calculated to display winner or losser.
 
 ## 4. divide and conquer
-- input section
-- function for 1 game
-- loop for 5 games
-- print out total score.
+- [x] input section
+- [ ] function for 1 game
+- [ ] loop for 5 games
+- [ ] print out total score.
 
